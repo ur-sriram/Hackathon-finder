@@ -1,0 +1,3 @@
+# Permanent-domain source-card verification
+
+The production site at `https://coimbatoreap-j8kwgsgj.manus.space/?from_webdev=1` loaded successfully after the source-card checkpoint. The feed rendered 281 matching records across 11 checked connectors and showed explicit `found`, `no records`, and `blocked by publisher` statuses. The first Unstop card rendered its source-specific registration, schedule, eligibility text, and readable prize rank chips rather than raw JSON. The public filter controls and Load more action were present. No card-rendering failure was observed during the loaded production page inspection.

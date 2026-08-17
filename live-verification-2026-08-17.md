@@ -1,0 +1,5 @@
+# Live verification — 2026-08-17
+
+The permanent domain `https://coimbatoreap-j8kwgsgj.manus.space/` returned HTTP 200 for the homepage and `GET /api/opportunities` returned HTTP 200 JSON. After the browser waited for the source scan, the live page rendered the e-commerce-style controls: source, category, price, mode, sort, date window, country, state, district, domain, applied-filter area, and Clear all. The feed displayed 24 of 281 matching records and reported 11 checked connectors. Live statuses were: Devpost 40, MLH 40, HackerEarth blocked, Kaggle no records, Topcoder blocked, Unstop 103, DoraHacks blocked, TAIKAI 26, Hack Club 8, ChallengeRocket 40, and KnowAFest 24.
+
+The source-error experience is now explicit rather than a generic feed failure: blocked publishers are labeled `blocked by publisher`, empty publishers are labeled `no records`, and temporary failures are labeled `temporary issue`. The endpoint also uses bounded connector timeouts and a short response cache so a slow source does not crash or indefinitely hold the server.
